@@ -1,3 +1,19 @@
+/* How to use DB Seeders
+
+Create a folder for the exercise
+
+Create initDB.js file in the folder.
+
+Copy/Paste the content in the initDB.js file provided for the exercise
+
+Update the 4th line which looks like const db = new sqlite3.Database('./BD4.1_CW/database.sqlite', (err) =>
+
+Replace ./BD4.1_CW with your folder name. You’ll use this path in the index.js file too
+
+Open the Shell and run the command node <folder_name>/initDB.js
+
+This will create the database file inside the exercise folder */
+
 let express = require("express");
 let cors = require('cors');
 let sqlite3 = require("sqlite3").verbose();
